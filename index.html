@@ -1,19 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <div class="nav">
-        <li><button>ABOUTME</button></li>
-            <li><button>SKILLS</button></li>
-            <li><button>CERTIFICATIONS</button></li>
-            <li><button>PROJECTS</button></li>
-            <li><button>CONTACTS</button></li>
+        <li><button class="nav-btn" data-target="aboutme">ABOUT ME</button></li>
+        <li><button class="nav-btn" data-target="skills">SKILLS</button></li>
+        <li><button class="nav-btn" data-target="certifications">CERTIFICATIONS</button></li>
+        <li><button class="nav-btn" data-target="projects">PROJECTS</button></li>
+        <li><button class="nav-btn" data-target="contacts">CONTACTS</button></li>
     </div>
-    <div class="aboutme">
+
+    <!-- About Me Section -->
+    <div id="aboutme" class="aboutme">
         <div class="profile">
-            <img src="profile.jpeg" height="250px" width="250px">
+            <img src="profile.jpg" height="250px" width="250px">
             <div class="contact-info">
                 <div class="contact-item">
                     <img src="phone.png" height="25px" width="25px">
@@ -26,116 +33,149 @@
             </div>
         </div>
         <h1>ABOUT ME</h1>
-        <h2>
-            Hello! I'm Manthira Priya, currently pursuing a B.Tech in Artificial Intelligence and Machine Learning at RMD Engineering College. With a CGPA of 8.7/10, I’m in my third year, actively honing my skills in web development and object-oriented programming.
-    
-            I’m passionate about solving real-world problems and look forward to contributing to a real-time environment soon. I’m a quick learner with a strong focus on consistency and hard work. My skills in time management and leadership have helped me balance my academic commitments and personal interests effectively.
-    
-            In my free time, I enjoy watching fictional and fantasy movies and playing outdoor games. These hobbies not only entertain me but also inspire creativity and teamwork, which I believe are essential in both personal and professional growth.
-        </h2>
+        <h2>I’m Manthira Priya, a third-year AIML student at RMD Engineering 
+            College, with a CGPA of 8.78/10. My passion lies in technology and problem-solving, and I enjoy working on real-time 
+            applications that bring efficiency and innovation. I have a strong foundation in Python, C, SQL, Flask, SQLAlchemy, React, and 
+            
+        Supabase, allowing me to build scalable and secure applications. My interest in web development and backend systems drives me to explore new tools and frameworks, ensuring I stay updated with the latest advancements in the tech industry.
+</h2>
+
+           <h2> Apart from coding, I enjoy outdoor games, which help me stay active and improve my teamwork and strategic thinking. I also love watching fictional and 
+            fantasy movies, as they spark creativity and imagination. I believe in consistency, hard work,
+             and continuous learning, which have shaped my journey so far. With strong leadership, time management, 
+             and problem-solving skills, I aim to build impactful solutions and contribute to a technology-driven future.</h2>
     </div>
-    
-          
-    
-    <div class="skills">
-        
+
+    <!-- Skills Section -->
+    <div id="skills" class="skills">
         <div class="tech">
-                <h1>TECH SKILLS</h1>
-                <ul>
-                    <li>PYTHON</li>
-                    <li>C</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>SQL</li>
-                </ul>
+            <h1>TECH SKILLS</h1>
+            <ul>
+                <li>PYTHON</li>
+                <li>C</li>
+                <li>FLASK</li>
+                <li>REACT</li>
+                <li>JAVASCRIPT</li>
+                <li>SQL</li>
+            </ul>
         </div>
         <div class="nontech">
-            <h1>NONTECH SKILLS</h1>
-                <ul>
-                    <li>TIME MANAGEMENT</li>
-                    <li>SOFT SKILLS</li>
-                    <li>TEAM WORK</li>
-                    <li>COMMUNICATION</li>
-                    <li>PROBLEM SOLVING</li>
-                    <li>LEADERSHIP</li>
-                </ul>
-
+            <h1>NON-TECH SKILLS</h1>
+            <ul>
+                <li>TIME MANAGEMENT</li>
+                <li>SOFT SKILLS</li>
+                <li>TEAM WORK</li>
+                <li>COMMUNICATION</li>
+                <li>PROBLEM SOLVING</li>
+                <li>LEADERSHIP</li>
+            </ul>
         </div>
     </div>
-    <div class="certification">
-<h1>CERTIFICATIONS</h1>
-<div class="cer">
-    <div class="nptel">
-        <h2>NPTEL</h2>
-        <ul>
-            <li>ENHANCING SOFTSKILLS</li>
-            <li>JOY OF COMPUTING PYTHON</li>
-        </ul>
+
+    <!-- Certifications Section -->
+    <div id="certifications" class="certification">
+        <h1>CERTIFICATIONS</h1>
+        <div class="cer">
+            <div class="nptel">
+                <h2>NPTEL</h2>
+                <ul>
+                    <li>CLOUD COMPUTING</li>
+                    <li>JOY OF COMPUTING PYTHON</li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>INFOSYS SPRINGBOARD</h2>
+                <ul>
+                    <li>AI FOUNDATION</li>
+                    <li>PYTHON FOUNDATION</li>
+                </ul>
+            </div>
+            <div class="cour">
+                <h2>OTHER</h2>
+                <ul>
+                    <li>FRONTEND DEVELOPMENT</li>
+                    <li>AZURE FUNDAMENTALS</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="info">
-        <h2>INFOSYS SPRINGBOARD</h2>
-        <ul>
-            <li>AI FOUNDATION</li>
-            <li>PYTHON FOUNDATION</li>
-        </ul>
-    </div>
-    <div class="cour">
-        <h2>OTHER</h2>
-        <ul>
-            <li>FRONTEND DEVELOPMENT</li>
-            <li>AZURE FUNDAMENTALS</li>
-        </ul>
-    </div>
-</div>
-    </div>
-    <div class="projects">
+
+    <!-- Projects Section -->
+    <div id="projects" class="projects">
         <h1>MY PROJECTS</h1>
-        
         <div class="pg">
-           <h2>MY WORK HUB</h2>
-           <h3>This is a  website showcases my skills, projects, and achievements in a structured and engaging way. It highlights my expertise in AI, web development, and problem-solving. Visitors can explore my past work, certifications, and technical abilities. The site also includes contact information for collaboration opportunities. 
-            Designed for easy navigation, it provides a clear insight into my professional journey.</h3>
-           
+            <h2>TASKTREK</h2>
+            <h3>TaskTrek is a simple and efficient to-do list application designed for seamless personal task management. Built using Python, Flask, and SQLAlchemy, it ensures smooth database operations with full CRUD functionality, allowing users to add, delete, modify, and view tasks effortlessly.
+
+                With a clean and responsive SCSS-based frontend, TaskTrek offers an intuitive interface that helps users stay organized and productive. Whether managing daily tasks or long-term goals, this app makes task tracking easy and efficient.</h3>
+        </div>
+        <div class="pg">
+            <h2>KEY-VAULT</h2>
+            <h3>Key Vault is a secure information storage application designed to protect user data with encryption. It ensures that only authenticated users can access their stored information through a secure login system.
+
+                Built using Flask, Python, SQLAlchemy, and SCSS, the app offers a seamless and user-friendly interface while maintaining high security. By integrating encryption techniques, Key Vault guarantees that sensitive data remains protected from unauthorized access, making it a safe and reliable solution for personal and confidential information storage.</h3>
+        </div>
+        <div class="pg">
+            <h2>KEY-VALUT 2.0</h2>
+            <H3>
+                Key Vault 2.0 is an enhanced and more secure version of Key Vault, designed to provide highly protected data storage using a two-step encryption mechanism. This approach encrypts the already encrypted data before storing it in Supabase, a PostgreSQL-powered open-source backend known for its real-time database management, built-in authentication, and secure storage solutions. This ensures maximum security and protection against unauthorized access.
+
+This version maintains user authentication and secure login mechanisms while improving data integrity and confidentiality. It is built using React + Vite for a faster, optimized front-end experience and Supabase as the database solution. With Key Vault 2.0, users get a seamless, fast, and highly secure way to store their sensitive data, making it an ideal privacy-focused solution. 
+            </H3>
         </div>
         <div class="pg">
             <h2>ONLINE COMPILER</h2>
-            <h3>The online compiler is a sophisticated web application developed using the React framework, supporting multiple programming languages 
-                such as C, Python, Java, JavaScript, and TypeScript. It integrates a POST API to process and execute code files, ensuring accurate and 
-                efficient results. The compiler features a modern and intuitive user interface designed to streamline coding and debugging for users. 
-                This project demonstrates my ability to build functional, 
-                real-time applications with a focus on usability and performance, catering to the needs of developers and learners alike.</h3>
+            <h3>Online Compiler is a powerful web-based coding platform built using React, designed to support multiple programming languages like C, Python, Java, JavaScript, and TypeScript. It leverages the Piston API, an open-source code execution engine, to run and process code efficiently, ensuring accurate and real-time results.
+
+                With a modern and intuitive UI, the compiler enhances the coding experience, making it ideal for developers and learners. It simplifies coding, debugging, and testing, providing a seamless and interactive environment for writing and executing programs online.</h3>
         </div>
-        <div class="pg">
-            <h2>TaskXP</h2>
-            <h3>This to-do list app helps users manage tasks efficiently while incorporating a point-based reward system. Completing tasks earns points, 
-                
-        motivating productivity, while uncompleted tasks automatically move to the "Incomplete" section. The app ensures better task tracking and accountability. It encourages consistency by maintaining a daily progress record. 
-                With a simple and intuitive interface, users can stay organized and motivated effortlessly.</h3>
-       
     </div>
-  <div class="contacts">
-    
-    <a href=" https://www.hackerrank.com/profile/mandra1862" target="_blank">
-        <img src="hackerrank.png" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <a href=" https://www.skillrack.com/faces/resume.xhtml?id=406099&key=619adcff6ae14729e79b6ae55bebec0032c62920" target="_blank">
-        <img src="skillrack.jpg" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <a href="https://leetcode.com/u/manthra_manthra/" target="_blank">
-        <img src="leetcode.png" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <a href="https://www.geeksforgeeks.org/user/mandra5gqp/" target="_blank">
-        <img src="geeksforgeeks.png" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <a href="https://www.instagram.com/manthraa____/" target="_blank">
-        <img src="instagram.png" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <a href="https://www.linkedin.com/in/manthira-priya-n-aiml-dept-84a4132b6/" target="_blank">
-        <img src="linkedin.png" height="100px" width="100px" alt="Clickable Image" class="clickable-image">
-    </a>
-    <div class="contacts-heading">
-        <h1>FIND ME ONLINE ON</h1>
+
+    <!-- Contacts Section -->
+    <div id="contacts" class="contacts">
+        <a href="https://www.hackerrank.com/profile/mandra1862" target="_blank">
+            <img src="hackerrank.png" height="100px" width="100px" alt="Hackerrank" class="clickable-image">
+        </a>
+        <a href="http://www.skillrack.com/profile/406099/619adcff6ae14729e79b6ae55bebec0032c62920" target="_blank">
+            <img src="skillrack.jpg" height="100px" width="100px" alt="Skillrack" class="clickable-image">
+        </a>
+        <a href="https://leetcode.com/u/manthra_manthra/" target="_blank">
+            <img src="leetcode.png" height="100px" width="100px" alt="LeetCode" class="clickable-image">
+        </a>
+        <a href="https://www.geeksforgeeks.org/user/mandra5gqp/" target="_blank">
+            <img src="geeksforgeeks.png" height="100px" width="100px" alt="GeeksforGeeks" class="clickable-image">
+        </a>
+        <a href="https://www.instagram.com/manthraa____/" target="_blank">
+            <img src="instagram.png" height="100px" width="100px" alt="Instagram" class="clickable-image">
+        </a>
+        <a href="https://www.linkedin.com/in/manthira-priya-n-aiml-dept-84a4132b6/" target="_blank">
+            <img src="linkedin.png" height="100px" width="100px" alt="LinkedIn" class="clickable-image">
+        </a>
+        <div class="contacts-heading">
+            <h1>FIND ME ONLINE ON</h1>
+        </div>
     </div>
-  </div>
-   
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll(".nav-btn");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function() {
+                    const targetId = this.getAttribute("data-target");
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - 50, // Adjust for fixed navbar
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
